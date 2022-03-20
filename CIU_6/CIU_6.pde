@@ -122,12 +122,15 @@ void draw(){
       endShape();
      }
   }
-  fill(color(255,0,0));
-  stroke(255);
-  triangle(draw[0]-10,draw[1]+20,draw[0],draw[1],draw[0]+10,draw[1]+20);
+  if(draw[1] < height-5 && draw[0] > 5 && draw[1] > 10){
+      fill(color(255,0,0));
+      stroke(255);
+      triangle(draw[0]-10,draw[1]+20,draw[0],draw[1],draw[0]+10,draw[1]+20);
+  }
+  
   noFill();
   if(drawable){
-    if(draw[1] < height-5 && draw[0] > 5){
+    if(draw[1] < height-5 && draw[0] > 5 && draw[1] > 10){
       figure.add(draw);
     }
   }

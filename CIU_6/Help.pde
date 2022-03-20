@@ -31,10 +31,10 @@ public class Help extends javax.swing.JFrame {
         jLabel1.setText("Help");
 
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("Top Right Corner - Display the RGB and Tolerance values");
+        jLabel3.setText("Top Left Corner - Display the RGB and Tolerance values");
 
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("Bottom Left Corner - Display which color is trying to be detected");
+        jLabel4.setText("Bottom Right Corner - Display which color is trying to be detected");
 
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         //jLabel5.setText("Q/A - Change Color Tolerance");
