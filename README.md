@@ -66,9 +66,9 @@ En caso de tener ambas versiones de processing (32 y 64 bits), se recomienda pri
   - [JMyron](http://webcamxtra.sourceforge.net/index.shtml)
 
 <p float="left">
-  <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/red.png" alt="Red_Pen" width="300"/>
-  <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/green.png" alt="Green_Pen" width="300"/>
-  <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/blue.png" alt="Blue_Pen" width="300"/>
+  <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/red.png" alt="Red_Pen" width="250"/>
+  <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/green.png" alt="Green_Pen" width="250"/>
+  <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/blue.png" alt="Blue_Pen" width="250"/>
 </p>
 
 ![Pen Gif](https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/animation.gif)
