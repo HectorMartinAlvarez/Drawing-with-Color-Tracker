@@ -64,3 +64,12 @@ En caso de tener ambas versiones de processing (32 y 64 bits), se recomienda pri
   - [Material de la asignatura Creando Interfaces de Usuario](https://github.com/otsedom/otsedom.github.io)
   - [Documentación de Processing](https://processing.org/reference)
   - [JMyron](http://webcamxtra.sourceforge.net/index.shtml)
+
+<p float="left">
+  <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/red.png" alt="Red_Pen" width="300"/>
+  <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/green.png" alt="Green_Pen" width="300"/>
+  <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/blue.png" alt="Blue_Pen" width="300"/>
+</p>
+
+![Pen Gif](https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/animation.gif)
+![Hand Gif](https://github.com/HectorMartinAlvarez/CIU_6/blob/main/samples/animationHand.gif)
