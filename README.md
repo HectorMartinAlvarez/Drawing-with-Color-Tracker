@@ -2,7 +2,7 @@
 
 Autor: Héctor Miguel Martín Álvarez
 
-<h2>¡IMPORTANTE!</h2>
+<h2>¡ATENCIÓN!</h2>
 <h3>Este proyecto solo es compatible con la versión de 32 bits de processing.</h3>
 
 [Más información](#dependencias)
