@@ -1,68 +1,57 @@
-# CIU - Práctica 6
+<h2>IMPORTANT!</h2>
+<h3>This project is only compatible with the 32-bit version of processing.</h3>
 
-Autor: Héctor Miguel Martín Álvarez
+[More information](#dependencies)
 
-<h2>¡ATENCIÓN!</h2>
-<h3>Este proyecto solo es compatible con la versión de 32 bits de processing.</h3>
+---
 
-[Más información](#dependencias)
+Application that identifies the color of an object and allows you to draw on the screen with that object.
 
-## Introducción
+This project was develop with Processing 3.5.4 32-bits
 
-Aplicación que identifica el color de un objeto y permite dibujar en la pantalla con el objeto.
+## Features
 
-## Desarrollo
+  - User entered colour (RGB) identification.
+  - Information and controls located in its own window, visible when clicking on the icon <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/CIU_6/data/help.jpg" alt="Help_Icon" width="25"/>  
+  - Drawing pointer display when the searched colour is recognised.
+  - Display of the searched color at any time in the lower right corner.
+  - Display of the RGB values of the searched color at any time in the upper left corner.
+  - It is possible to visualise the outline of the identified colour.
+  - Access the camera settings by clicking anywhere in the window except the help icon.
 
-El proyecto ha sido desarrollado empleando 2 ficheros: 
-  - <b>CIU_6</b> </br><p>Fichero principal del proyecto desde el que mediante el uso de la cámara se identifican objetos con el color que se decida y se pueda dibujar con dicho objeto bien sea sobre la imagen captada por la cámara o sobre un lienzo en blanco.</p>
-  - <b>Help</b> </br><p>Fichero donde se implementa una ventana adicional para mostrar información sobre la aplicación y sus controles.</p>
+## Controls
 
-## Características
-
-  - Identificación del color (RGB) introducido por el usuario.
-  - Información y controles ubicados en su propia ventana, visible al clicar sobre el icono <img src="https://github.com/HectorMartinAlvarez/CIU_6/blob/main/CIU_6/data/help.jpg" alt="Help_Icon" width="25"/>  
-  - Visualización de puntero de dibujo al reconocer el color buscado.
-  - Visualización del color buscado en todo momento en la esquina inferior derecha
-  - Visualización de los valores RGB del color buscado en todo momento en la esquina superior izquierda.
-  - Posibilidad de visualizar el contorno del color identificado.
-  - Configuración de la cámara al clicar sobre cualquier lugar de la ventana, excepto el icono de ayuda
-
-## Controles
-
-|Tecla|Descripción|
+|Keys|Action|
 |:---:|:----------:|
-|Q|Aumentar tolerancia del color|
-|A|Reducir tolerancia del color|
-|W|Aumentar valor del color Rojo|
-|S|Reducir valor del color Rojo|
-|E|Aumentar valor del color Verde|
-|D|Reducir valor del color Verde|
-|R|Aumentar valor del color Azul|
-|F|Reducir valor del color Azul|
-|Y|Comenzar/Terminar de dibujar|
-|C|Limpiar dibujo de la pantalla|
-|H|Mostrar/Ocultar imagen de la cámara|
-|B|Mostrar/Ocultar contorno del color identificado|
-|ESC|Cerrar la Aplicación|
+|Q|Increase colour tolerance|
+|A|Decrease colour tolerance|
+|W|Increase value of Red colour|
+|S|Decrease value of Red colour|
+|E|Increase value of Green colour|
+|D|Decrease value of Green colour|
+|R|Increase value of Blue colour|
+|F|Decrease value of Blue colour|
+|Y|Start/Finish drawing|
+|C|Clean screen|
+|H|Show/Hide camera image|
+|B|Show/Hide contour of identified colour|
+|ESC|Close the application|
 
-## Dependencias
+## Dependencies
 
-Para la correcta ejecución del proyecto son necesarios los siguientes archivos:
-  - Librería JMyron para processing. [link](http://webcamxtra.sourceforge.net/download.shtml)
-    - Una vez descargada y descomprimido el archivo .ZIP en la carpeta resultante encontrará un HowToInstall.txt con toda la información necesaria para instalar la librería.
-  - Archivo DLL msvcr71.dll
-  - Archivo DLL msvcp71.dll
+For the correct execution of the project it is necessary to have:
+  - JMyron library for processing. [link](http://webcamxtra.sourceforge.net/download.shtml)
+    - Once downloaded and unzipped the .ZIP file in the resulting folder you will find a HowToInstall.txt with all the information needed to install the library.
+  - DLL file msvcr71.dll
+  - DLL file msvcp71.dll
 
-Una vez tenga todos los archivos descritos arriba instalados debe ejecutar el proyecto con la versión de **32 bits** de processing. [link](https://processing.org/download)
+Once you have all the files described above installed, you must run the project with the **32 bit** version of processing. [link](https://processing.org/download)
 
-En caso de tener ambas versiones de processing (32 y 64 bits), se recomienda primero ejecutar processing de 32 bits (processing.exe) y desde processing abrir el proyecto.
+If you have both versions of processing (32-bit and 64-bit), it is recommended that you first run 32-bit version and open the project from processing.
 
-## Herramientas
-  - Processing 3.5.4 versión x32
-
-## Referencias
-  - [Material de la asignatura Creando Interfaces de Usuario](https://github.com/otsedom/otsedom.github.io)
-  - [Documentación de Processing](https://processing.org/reference)
+## References
+  - [Creating User Interfaces subject material](https://github.com/otsedom/otsedom.github.io)
+  - [Processing Documentation](https://processing.org/reference)
   - [JMyron](http://webcamxtra.sourceforge.net/index.shtml)
 
 <p float="left">
